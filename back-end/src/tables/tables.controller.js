@@ -1,8 +1,8 @@
 const service = require("./tables.service");
-const asyncErrorBoundary = require("../errors/asyncErrorBoundary");
-const hasProperties = require("../errors/hasProperties");
-const hasOnlyValidProperties = require("../errors/hasOnlyValidProperties");
-const reservationService = require("../reservations/reservations.service");
+const asyncErrorBoundary = require("./errors/asyncErrorBoundary");
+const hasProperties = require("./errors/hasProperties");
+const hasOnlyValidProperties = require("./errors/hasOnlyValidProperties");
+const reservationService = require("./reservations/reservations.service");
 
 
 const VALID_PROPERTIES_POST = [
