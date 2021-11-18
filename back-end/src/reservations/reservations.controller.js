@@ -2,9 +2,9 @@
  * List handler for reservation resources
  */
  const service = require("./reservations.service");
- const asyncErrorBoundary = require("../errors/asyncErrorBoundary");
- const hasProperties = require("../errors/hasProperties");
- const onlyValidProperties = require("../errors/onlyValidProperties");
+ const asyncErrorBoundary = require("./errors/asyncErrorBoundary");
+ const hasProperties = require("./errors/hasProperties");
+ const onlyValidProperties = require("./errors/onlyValidProperties");
  
  // SET UP FOR VALIDATION
  const REQUIRED_PROPERTIES = [
